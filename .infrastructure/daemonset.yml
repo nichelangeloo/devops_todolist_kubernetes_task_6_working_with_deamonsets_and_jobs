@@ -32,6 +32,6 @@ spec:
               - -c
               - |
                 while true; do
-                  curl todoapp-service.todoapp.svc.cluster.local:80
+                  curl todoapp-service.todoapp.svc.cluster.local/todolists/
                   sleep 5
                 done
